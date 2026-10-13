@@ -1,0 +1,20 @@
+📂 Hexion/
+├── 📄 main.py                   # Global entry point
+└── 📂 src/
+    ├── __init__.py
+    │
+    ├── 📂 core/                 # 🔒 SECURED & UNTOUCHED (v2.0 DEFAULT)
+    │   ├── __init__.py
+    │   ├── 📄 database.py       # Stable connection logic
+    │   ├── 📄 sheets.py         # Stable Google Sheets engine
+    │   └── 📂 views/
+    │       ├── __init__.py
+    │       ├── 📄 modals.py     # Locked default v2.0 modals file
+    │       └── 📄 validators.py # Stable input checkers
+    │
+    └── 📂 features/             # 🛠️ DESIRED EXPERIMENTS & FEATURE STAGING
+        ├── __init__.py
+        ├── 📂 auto_updater/     # Example: Future auto-update feature folder
+        │   └── 📄 updater.py
+        └── 📂 leaderboard/      # Example: Future stats/ranking feature folder
+            └── 📄 stats.py
